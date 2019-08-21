@@ -22,4 +22,12 @@ public class StudentController {
         mv.setViewName("student");
         return mv;
     }
+
+    @RequestMapping("/test")
+    public ModelAndView test(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("test");
+        return mv;
+    }
+
 }
